@@ -1,22 +1,36 @@
 {
-  "name": "react-app",
+  "name": "egghead-flux",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lesson Application to learn ReactJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://typefasterjoel@github.com/typefasterjoel/react-app-lesson.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/typefasterjoel/react-app-lesson/issues"
+  },
+  "homepage": "https://github.com/typefasterjoel/react-app-lesson#readme",
   "dependencies": {
-    "babel-core": "^6.11.4",
+    "flux": "^2.1.1",
+    "history": "^3.0.0",
     "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
+    "react-router": "^2.6.1"
   },
   "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   }
 }
